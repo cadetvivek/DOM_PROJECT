@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <button id="btn">button</button>
+  </body>
+  <script>
+    let btn = document.getElementById("btn");
+    function input() {
+      console.log("this only trile for dom");
+      alert("chaking alert working");
+    }
+    btn.addEventListener("click", input);
+  </script>
+</html>
